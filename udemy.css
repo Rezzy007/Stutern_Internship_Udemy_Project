@@ -1,0 +1,513 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body-container{
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+}
+
+/* Nav-Bar */
+.nav-bar{
+    width: 100%;
+    background-color: #fff;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.nav-links li{
+    list-style-type: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #1C1D1F;
+    font-weight: 500;
+}
+
+.nav-links img{
+    height: auto;
+    width: 8rem;
+}
+
+.nav-links .search{
+    width: 30em;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: #F7F9FA;
+    padding: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search .fa-magnifying-glass{
+    margin-right: 30px;
+}
+
+.nav-links .button a, .fa-globe{
+    border: 1px solid #1C1D1F;
+    padding: 15px 20px;
+}
+
+.nav-links .button.signup a{
+    background-color: #1C1D1F;
+    color: #fff;
+}
+
+/* Header */
+
+.header{
+    background-image: url('Assets/header_img3.jpg');
+    height: 600px;
+    margin: 0 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
+
+.header .header-title {
+    background-color: #fff;
+    width: 28em;
+    padding: 40px;
+    position: absolute;
+    top: 5em;
+    left: 5em;
+}
+
+.header-title h1{
+    margin-bottom: 10px;
+}
+
+.header-title p{
+    font-weight: 400;
+}
+
+/* Section 1 */
+
+.section1{
+   display: flex;
+   flex-flow: column wrap;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding: 50px;
+   position: relative;
+}
+
+.course-container h2{
+    font-size: 3.4rem;
+    margin-bottom: 10px;
+}
+
+.course-container p {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.course-container .courses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45em;
+    color: #656574;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.courses .course1{
+    color: #1C1D1F;
+}
+
+.python-course{
+    margin: 40px 0;
+    border: 1px solid #656574;
+    padding: 50px;
+}
+
+.python-course .Expand-career-container{
+    width: 65%;
+}
+
+.python-course .Expand-career-container h3{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.python-course .Expand-career-container p{
+    line-height: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.explore-button a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+    border: 1px solid #656574;
+    color: #000;
+    padding: 15px 20px;
+}
+
+.section1 .fa-angle-right{
+    position: absolute;
+    font-size: 32px;
+    color: #fff;
+    background-color: #1C1D1F;
+    padding: 20px 25px;
+    border-radius: 100%;
+    left: 59em;
+    top: 23em;
+}
+
+.card-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 40px 0 0 0;
+}
+
+.card{
+    width: 360px;
+    line-height: 2.2rem;
+}
+
+.card img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #898994;
+}
+
+.card-details p{
+    font-weight: 700;
+    width: 370px;
+}
+
+.card-details .tutor{
+    font-size: 18px;
+    font-weight: 500;
+    color: #656574;
+}
+
+.card-details .rating{
+    display: block;
+}
+
+.rating .average-rating{
+    color: #C5750E;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.rating .star{
+    color: #E59819;
+    font-size: 20px;
+}
+
+.rating .number{
+    font-size: 20px;
+}
+
+.card-details .current-amount{
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.card-details .initial-amount{
+    text-decoration: line-through;
+    color: #656574;
+    font-size: 23px;
+}
+
+.card .card-button{
+    background-color: #ECEB98;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 8px;
+    margin: 10px 0;
+}
+
+/* section 2 */
+.section2{
+    position: relative;
+}
+
+.section2 .fa-angle-right{
+    position: absolute;
+    font-size: 32px;
+    color: #fff;
+    background-color: #1C1D1F;
+    padding: 20px 25px;
+    border-radius: 100%;
+    left: 60em;
+    top: 6em;
+}
+.section2-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 0 0 50px 0;
+    background-color: #edf2f5;
+}
+
+.section2-content{
+    display: flex;
+    column-gap: 20px;
+    padding: 50px 0;
+}
+
+.section2-content span{
+    width: 450px;
+    font-weight: 800;
+    color: #1C1D1F;
+}
+
+.section2-content .section2-icon{
+    border: 1px transparent #c2cbd3;
+    border-radius: 100%;
+    background-color: #c2cbd3;
+    padding: 20px;
+}
+
+.students{
+    padding: 50px;
+    position: relative;
+}
+
+/* section 3 */
+.section3{
+    padding: 50px;
+}
+
+.section3 h2, .section4 h2{
+    font-size: 3rem;
+}
+
+.section3-card-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    gap: 50px 20px;
+    margin: 40px 0;
+
+}
+
+.section3-card-container img{
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+
+.section3-card-container img:hover{
+    width: 460px;
+    height: 460px;
+    object-fit: cover;
+    transition: 2.5secs;
+}
+
+.section3-card-container p{
+    font-weight: 700;
+}
+
+/* section 4 */
+.section4{
+    padding: 50px;
+    background-color: #edf2f5;
+}
+
+.section4-container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 17rem;
+    margin-bottom: 20px;
+}
+
+.section4-container .sub-container>div{
+    margin-bottom: 40px;
+}
+
+.section4-container .sub-container>div>a{
+    font-weight: 700;
+}
+
+.section4-container .sub-container>h3{
+    padding: 40px 0;
+}
+
+.section4-container .sub-container span{
+    display: block;
+    margin: 10px 0;
+}
+
+.section4 a:last-child{
+    text-decoration: none;
+    border: 1px solid #1C1D1F;
+    padding: 12px 20px;
+    color: #1C1D1F;
+    font-weight: 700;
+}
+
+/* section 5 */
+.section5{
+    padding: 50px;
+    text-align: center;
+}
+
+.section5 h2{
+    padding: 50px 0 20px 0;
+    font-size: 3rem;
+}
+
+.partners{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.partners img{
+    width: 7em;
+    height: 4em;
+}
+
+.udemy-business, .instructor{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 10rem 0 2rem 0;
+}
+
+.udemy-logo-span{
+    display: flex;
+}
+
+.udemy-left-col, .udemy-right-col, .instructor-left-col, .instructor-right-col{
+    width: 35%;
+}
+
+.udemy-left-col, .instructor-right-col{
+    text-align: left;
+}
+
+.udemy-left-col img{
+    height: auto;
+    width: 10rem;
+    margin-right: 10px;
+}
+
+.udemy-left-col span{
+    font-size: 48px;
+    color: #A435F0;
+}
+
+.udemy-left-col ul{
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.udemy-left-col ul li{
+    font-size: 28px;
+    padding: 10px 0;
+    width: 550px;
+}
+
+.udemy-right-col img, .instructor-left-col img{
+    width: 600px;
+    height: 600px;
+}
+
+.udemy-biz-button a, .instructor-right-col a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+    background-color: #1C1D1F;
+    padding: 20px 30px;
+    margin: 7px;
+}
+
+.udemy-biz-button a:last-child{
+    color: #1C1D1F;
+    background-color: #fff;
+    border: 1px solid #1C1D1F;
+}
+
+.instructor-left-col,
+.instructor-right-col{
+    margin: 0 40px;
+}
+
+.instructor-right-col p{
+    font-size: 28px;
+    width: 35rem;
+    line-height: 1.5em;
+    margin-bottom: 40px;
+}
+
+/* footer */
+footer{
+    background-color: #1C1D1F;
+    color: #fff;
+    padding: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.footer-links ul li{
+    list-style-type: none;
+    line-height: 2.2em;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-links ul li a, .language a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover{
+    text-decoration: underline;
+}
+
+.language a{
+    border: 1px solid #fff;
+    padding: 15px 25px 15px 5px;
+    text-align: left;
+}
+
+.copyright{
+    padding: 5rem 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.copyright img{
+    height: auto;
+    width: 9rem;
+}
+
+.copyright span{
+    font-size: 18px;
+}
