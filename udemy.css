@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 40px;
+    padding: 10px 20px;
 }
 
 .nav-links li{
@@ -30,12 +30,12 @@
     text-decoration: none;
     color: #1C1D1F;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .nav-links img{
     height: auto;
-    width: 8rem;
+    width: 100px;
 }
 
 .nav-links .search{
@@ -46,23 +46,23 @@
 }
 
 .nav-links .search input{
-    width: 700px;
+    width: 450px;
     border: 1px solid black;
     border-radius: 40px;
     background-color: #F7F9FA;
-    padding: 20px;
+    padding: 10px;
 }
 
 .search .fa-magnifying-glass{
     position: absolute;
-    font-size: 28px;
-    left: 30px;
+    font-size: 16px;
+    left: 20px;
     color: #656574;
 }
 
 .search input[placeholder='Search for anything']{
-    font-size: 20px;
-    padding-left: 80px;
+    font-size: 14px;
+    padding-left: 60px;
 }
 
 .nav-links .nav-button{
@@ -92,7 +92,7 @@
 
 .header{
     background-image: url('Assets/header_img3.jpg');
-    height: 600px;
+    height: 400px;
     margin: 0 5px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,21 +102,21 @@
 
 .header .header-title{
     background-color: #fff;
-    width: 650px;
-    padding: 50px;
+    width: 450px;
+    padding: 20px 25px;
     position: absolute;
     top: 70px;
     left: 70px;
 }
 
 .header-title h1{
-    margin-bottom: 20px;
-    font-size: 48px;
+    margin-bottom: 15px;
+    font-size: 32px;
 }
 
 .header-title p{
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 /* Section 1 */
@@ -131,12 +131,12 @@
 }
 
 .course-container h2{
-    font-size: 44px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
-.course-container p {
-    font-size: 28px;
+.course-container p{
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -144,10 +144,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1100px;
+    width: 700px;
     color: #656574;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .courses .course1{
@@ -155,9 +155,9 @@
 }
 
 .python-course{
-    margin: 40px 0;
+    margin: 20px 0;
     border: 1px solid #656574;
-    padding: 50px;
+    padding: 20px 45px 40px;
 }
 
 .python-course .Expand-career-container{
@@ -166,35 +166,36 @@
 }
 
 .python-course .Expand-career-container h3{
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 26px;
+    margin-bottom: 10px;
 }
 
 .python-course .Expand-career-container p{
-    font-size: 22px;
-    margin-bottom: 40px;
-    line-height: 40px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 25px;
 }
 
 .explore-button a{
     display: inline-block;
     text-decoration: none;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 16px;
     border: 1px solid #656574;
     color: #000;
-    padding: 15px 20px;
+    padding: 10px 15px;
 }
 
 .section1 .fa-angle-right{
     position: absolute;
-    font-size: 32px;
+    font-size: 24px;
     color: #fff;
     background-color: #1C1D1F;
-    padding: 20px 25px;
-    border-radius: 100%;
-    right: 80px;
-    bottom: 430px;
+    padding: 10px 15px;
+    border: 1px solid #1C1D1F;
+    border-radius: 50%;
+    right: 85px;
+    bottom: 320px;
 }
 
 .card-container{
@@ -206,27 +207,32 @@
 }
 
 .card{
-    width: 360px;
-    line-height: 35px;
+    width: 230px;
+    line-height: 25px;
 }
 
 .card img {
-    width: 350px;
-    height: 200px;
+    width: 220px;
+    height: 120px;
     object-fit: cover;
     border: 1px solid #898994;
 }
 
+.card-details{
+    margin-bottom: 10px;
+}
+
 .card-details p{
     font-weight: 700;
-    font-size: 24px;
-    width: 370px;
+    font-size: 16px;
+    width: 240px;
 }
 
 .card-details .tutor{
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
     color: #656574;
+
 }
 
 .card-details .rating{
@@ -235,37 +241,36 @@
 
 .rating .average-rating{
     color: #C5750E;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 700;
 }
 
 .rating .star{
     color: #E59819;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .rating .number{
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .card-details .current-amount{
     font-weight: 700;
-    font-size: 26px;
-    margin-right: 10px;
+    font-size: 18px;
+    margin-right: 5px;
 }
 
 .card-details .initial-amount{
     text-decoration: line-through;
     color: #656574;
-    font-size: 23px;
+    font-size: 19px;
 }
 
 .card .card-button{
     background-color: #ECEB98;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     padding: 5px 8px;
-    margin: 10px 0;
 }
 
 /* section 2 */
@@ -273,88 +278,106 @@
     position: relative;
 }
 
-.section2 .fa-angle-right{
-    position: absolute;
-    font-size: 32px;
-    color: #fff;
-    background-color: #1C1D1F;
-    padding: 20px 25px;
-    border-radius: 100%;
-    right: 30px;
-    top: 180px;
-}
 .section2-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 50px;
-    margin: 0 0 50px 0;
-    background-color: #edf2f5;
+    background-color: #f0f4f7;
 }
 
 .section2-content{
     display: flex;
     column-gap: 20px;
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 .section2-content span{
-    width: 450px;
+    width: 300px;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 17px;
     color: #1C1D1F;
 }
 
-.section2-content .section2-icon{
-    border: 1px transparent #c2cbd3;
+.section2-icon .fa-play, .section2-icon .fa-star, .section2-icon .fa-infinity{
+    border: 1px solid #c2cbd3;
     border-radius: 50%;
     background-color: #c2cbd3;
-    padding: 20px 23px;
+    padding: 10px;
+    font-size: 14px;
 }
 
 .students{
-    padding: 50px;
+    padding: 80px 50px 30px;
     position: relative;
 }
 
+.students .card-container{
+    margin-top: 20px;
+}
+
+.students .card img{
+    width: 242px;
+}
+
 .students h2{
-    font-size: 32px;
+    font-size: 28px;
+}
+
+.students p{
+    width: 250px;
+}
+
+.section2 .tutor{
+    font-size: 11px;
+}
+
+.section2 .fa-angle-right{
+    position: absolute;
+    font-size: 24px;
+    color: #fff;
+    background-color: #1C1D1F;
+    padding: 10px 15px;
+    border: 1px solid #1C1D1F;
+    border-radius: 50%;
+    right: 35px;
+    top: 170px;
 }
 
 /* section 3 */
 .section3{
-    padding: 50px;
+    padding: 80px 50px;
 }
 
 .section3 h2, .section4 h2{
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .section3-card-container{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    gap: 50px 20px;
-    margin: 40px 0;
+    gap: 50px 10px;
+    margin: 20px 0;
 
 }
 
 .section3-card-container img{
-    width: 440px;
-    height: 440px;
+    width: 290px;
+    height: 290px;
     object-fit: cover;
 }
 
 .section3-card-container img:hover{
-    width: 460px;
-    height: 460px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     transition: transform 150ms;
 }
 
 .section3-card-container p{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 /* section 4 */
@@ -365,55 +388,55 @@
 
 .section4-container{
     display: flex;
-    justify-content: flex-start;
-    gap: 250px;
+    justify-content: space-between;
+    width: 80%;
     margin-bottom: 20px;
 }
 
 .section4-container .sub-container>div{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .section4-container .sub-container>div>a{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .section4-container .sub-container>h3{
     padding: 40px 0;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .section4-container .sub-container span{
     display: block;
     margin: 10px 0;
-    font-size: 22px;
+    font-size: 14px;
     color: #656574;
 }
 
 .section4 a:last-child{
     text-decoration: none;
     border: 1px solid #1C1D1F;
-    padding: 12px 20px;
+    padding: 12px 18px;
     color: #1C1D1F;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 14px;
 }
 
 /* section 5 */
 .section5{
-    padding: 50px;
+    padding: 0 50px;
     text-align: center;
 }
 
-.section5 h2{
-    padding: 50px 0 20px 0;
-    font-size: 40px;
+.section5 h3{
+    padding: 80px 0 10px 0;
+    font-size: 28px;
     font-weight: 600;
 }
 
 .section5 p{
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .partners{
@@ -425,15 +448,16 @@
 
 .partners img{
     width: auto;
-    height: 70px;
+    height: 45px;
     object-fit: cover;
 }
 
-.udemy-business, .instructor{
+.udemy-business{
     display: flex;
     justify-content: center;
+    align-items: center;
     align-content: flex-start;
-    padding: 120px 0 40px 0;
+    padding: 120px 50px 0;
 }
 
 .udemy-logo-span{
@@ -443,18 +467,19 @@
 
 .udemy-logo-span img{
     height: auto;
-    width: 160px;
-    margin-right: 10px;
+    width: 85px;
+    margin-right: 5px;
 }
 
 .udemy-left-col, .udemy-right-col, .instructor-left-col, .instructor-right-col{
-    width: 35%;
+    width: 40%;
 }
 
 .udemy-left-col h2{
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
-    width: 550px;
+    width: 350px;
+    padding: 15px 0;
 }
 
 .udemy-left-col, .instructor-right-col{
@@ -462,33 +487,33 @@
 }
 
 .udemy-left-col span{
-    font-size: 48px;
+    font-size: 26px;
     color: #A435F0;
 }
 
 .udemy-left-col ul{
     margin-bottom: 40px;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .udemy-left-col ul li{
-    font-size: 28px;
-    padding: 10px 0;
-    width: 550px;
+    font-size: 20px;
+    padding: 8px 0;
+    width: 400px;
 }
 
 .udemy-right-col img, .instructor-left-col img{
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
 }
 
 .udemy-biz-button a, .instructor-right-col a{
     text-decoration: none;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 15px;
     color: #fff;
     background-color: #1C1D1F;
-    padding: 20px 30px;
+    padding: 15px 20px;
     margin: 7px 0;
 }
 
@@ -496,18 +521,29 @@
     color: #1C1D1F;
     background-color: #fff;
     border: 1px solid #1C1D1F;
-    margin-left: 7px;
+    margin-left: 5px;
 }
 
-.instructor-left-col,
-.instructor-right-col{
+.instructor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 120px 50px 80px;
+}
+
+.instructor-left-col, .instructor-right-col{
     margin: 0 40px;
 }
 
+.instructor-right-col h3{
+    font-size: 32px;
+}
+
 .instructor-right-col p{
-    font-size: 28px;
-    width: 550px;
-    line-height: 45px;
+    font-size: 20px;
+    width: 400px;
+    line-height: 30px;
     margin-bottom: 40px;
 }
 
@@ -515,26 +551,31 @@
 footer{
     background-color: #1C1D1F;
     color: #fff;
-    padding: 50px;
+    padding: 20px 50px;
 }
 
 .footer{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
 }
 
 .footer-links{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     width: 60%;
 }
 
 .footer-links ul li{
     list-style-type: none;
-    line-height: 2.2em;
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 14px;
     font-weight: 500;
+}
+
+.language{
+    padding: 20px;
 }
 
 .footer-links ul li a, .language a{
@@ -548,13 +589,13 @@ footer{
 
 .language a{
     border: 1px solid #fff;
-    padding: 15px 50px 15px 20px;
+    padding: 10px 30px 10px 15px;
     text-align: left;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .copyright{
-    padding: 70px 0 0;
+    padding: 50px 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -563,9 +604,9 @@ footer{
 
 .copyright img{
     height: auto;
-    width: 160px;
+    width: 100px;
 }
 
 .copyright span{
-    font-size: 18px;
+    font-size: 14px;
 }
