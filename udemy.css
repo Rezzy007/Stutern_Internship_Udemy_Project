@@ -7,7 +7,6 @@
 .body-container{
     width: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 24px;
 }
 
 /* Nav-Bar */
@@ -31,6 +30,7 @@
     text-decoration: none;
     color: #1C1D1F;
     font-weight: 500;
+    font-size: 24px;
 }
 
 .nav-links img{
@@ -39,23 +39,48 @@
 }
 
 .nav-links .search{
-    width: 30em;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.nav-links .search input{
+    width: 700px;
     border: 1px solid black;
     border-radius: 40px;
     background-color: #F7F9FA;
     padding: 20px;
-    justify-content: flex-start;
-    align-items: center;
 }
 
 .search .fa-magnifying-glass{
-    margin-right: 30px;
+    position: absolute;
+    font-size: 28px;
+    left: 30px;
+    color: #656574;
 }
 
-.nav-links .button a, .fa-globe{
+.search input[placeholder='Search for anything']{
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+.nav-links .nav-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links .button a{
     border: 1px solid #1C1D1F;
-    padding: 15px 20px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.nav-links .fa-globe{
+    border: 1px solid #1C1D1F;
+    padding: 14px 20px;
+    margin: 5px;
 }
 
 .nav-links .button.signup a{
@@ -75,21 +100,23 @@
     position: relative;
 }
 
-.header .header-title {
+.header .header-title{
     background-color: #fff;
-    width: 28em;
-    padding: 40px;
+    width: 650px;
+    padding: 50px;
     position: absolute;
-    top: 5em;
-    left: 5em;
+    top: 70px;
+    left: 70px;
 }
 
 .header-title h1{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 48px;
 }
 
 .header-title p{
     font-weight: 400;
+    font-size: 24px;
 }
 
 /* Section 1 */
@@ -104,12 +131,12 @@
 }
 
 .course-container h2{
-    font-size: 3.4rem;
+    font-size: 44px;
     margin-bottom: 10px;
 }
 
 .course-container p {
-    font-size: 2rem;
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
@@ -117,10 +144,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 45em;
+    width: 1100px;
     color: #656574;
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 24px;
 }
 
 .courses .course1{
@@ -135,22 +162,25 @@
 
 .python-course .Expand-career-container{
     width: 65%;
+    position: relative;
 }
 
 .python-course .Expand-career-container h3{
-    font-size: 2.5rem;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
 .python-course .Expand-career-container p{
-    line-height: 2.5rem;
+    font-size: 22px;
     margin-bottom: 40px;
+    line-height: 40px;
 }
 
 .explore-button a{
     display: inline-block;
     text-decoration: none;
     font-weight: 700;
+    font-size: 24px;
     border: 1px solid #656574;
     color: #000;
     padding: 15px 20px;
@@ -163,8 +193,8 @@
     background-color: #1C1D1F;
     padding: 20px 25px;
     border-radius: 100%;
-    left: 59em;
-    top: 23em;
+    right: 80px;
+    bottom: 430px;
 }
 
 .card-container{
@@ -177,7 +207,7 @@
 
 .card{
     width: 360px;
-    line-height: 2.2rem;
+    line-height: 35px;
 }
 
 .card img {
@@ -189,6 +219,7 @@
 
 .card-details p{
     font-weight: 700;
+    font-size: 24px;
     width: 370px;
 }
 
@@ -219,6 +250,7 @@
 
 .card-details .current-amount{
     font-weight: 700;
+    font-size: 26px;
     margin-right: 10px;
 }
 
@@ -248,8 +280,8 @@
     background-color: #1C1D1F;
     padding: 20px 25px;
     border-radius: 100%;
-    left: 60em;
-    top: 6em;
+    right: 30px;
+    top: 180px;
 }
 .section2-container{
     display: flex;
@@ -268,20 +300,25 @@
 
 .section2-content span{
     width: 450px;
-    font-weight: 800;
+    font-weight: 700;
+    font-size: 24px;
     color: #1C1D1F;
 }
 
 .section2-content .section2-icon{
     border: 1px transparent #c2cbd3;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: #c2cbd3;
-    padding: 20px;
+    padding: 20px 23px;
 }
 
 .students{
     padding: 50px;
     position: relative;
+}
+
+.students h2{
+    font-size: 32px;
 }
 
 /* section 3 */
@@ -290,7 +327,7 @@
 }
 
 .section3 h2, .section4 h2{
-    font-size: 3rem;
+    font-size: 36px;
 }
 
 .section3-card-container{
@@ -312,11 +349,12 @@
     width: 460px;
     height: 460px;
     object-fit: cover;
-    transition: 2.5secs;
+    transition: transform 150ms;
 }
 
 .section3-card-container p{
     font-weight: 700;
+    font-size: 24px;
 }
 
 /* section 4 */
@@ -328,7 +366,7 @@
 .section4-container{
     display: flex;
     justify-content: flex-start;
-    gap: 17rem;
+    gap: 250px;
     margin-bottom: 20px;
 }
 
@@ -338,15 +376,19 @@
 
 .section4-container .sub-container>div>a{
     font-weight: 700;
+    font-size: 24px;
 }
 
 .section4-container .sub-container>h3{
     padding: 40px 0;
+    font-size: 28px;
 }
 
 .section4-container .sub-container span{
     display: block;
     margin: 10px 0;
+    font-size: 22px;
+    color: #656574;
 }
 
 .section4 a:last-child{
@@ -355,6 +397,7 @@
     padding: 12px 20px;
     color: #1C1D1F;
     font-weight: 700;
+    font-size: 24px;
 }
 
 /* section 5 */
@@ -365,7 +408,12 @@
 
 .section5 h2{
     padding: 50px 0 20px 0;
-    font-size: 3rem;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.section5 p{
+    font-size: 24px;
 }
 
 .partners{
@@ -376,33 +424,41 @@
 }
 
 .partners img{
-    width: 7em;
-    height: 4em;
+    width: auto;
+    height: 70px;
+    object-fit: cover;
 }
 
 .udemy-business, .instructor{
     display: flex;
     justify-content: center;
     align-content: flex-start;
-    padding: 10rem 0 2rem 0;
+    padding: 120px 0 40px 0;
 }
 
 .udemy-logo-span{
     display: flex;
+    align-content: flex-start;
+}
+
+.udemy-logo-span img{
+    height: auto;
+    width: 160px;
+    margin-right: 10px;
 }
 
 .udemy-left-col, .udemy-right-col, .instructor-left-col, .instructor-right-col{
     width: 35%;
 }
 
-.udemy-left-col, .instructor-right-col{
-    text-align: left;
+.udemy-left-col h2{
+    font-size: 48px;
+    font-weight: 700;
+    width: 550px;
 }
 
-.udemy-left-col img{
-    height: auto;
-    width: 10rem;
-    margin-right: 10px;
+.udemy-left-col, .instructor-right-col{
+    text-align: left;
 }
 
 .udemy-left-col span{
@@ -412,7 +468,7 @@
 
 .udemy-left-col ul{
     margin-bottom: 40px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .udemy-left-col ul li{
@@ -433,13 +489,14 @@
     color: #fff;
     background-color: #1C1D1F;
     padding: 20px 30px;
-    margin: 7px;
+    margin: 7px 0;
 }
 
 .udemy-biz-button a:last-child{
     color: #1C1D1F;
     background-color: #fff;
     border: 1px solid #1C1D1F;
+    margin-left: 7px;
 }
 
 .instructor-left-col,
@@ -449,8 +506,8 @@
 
 .instructor-right-col p{
     font-size: 28px;
-    width: 35rem;
-    line-height: 1.5em;
+    width: 550px;
+    line-height: 45px;
     margin-bottom: 40px;
 }
 
@@ -491,12 +548,13 @@ footer{
 
 .language a{
     border: 1px solid #fff;
-    padding: 15px 25px 15px 5px;
+    padding: 15px 50px 15px 20px;
     text-align: left;
+    font-size: 24px;
 }
 
 .copyright{
-    padding: 5rem 0 0;
+    padding: 70px 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -505,7 +563,7 @@ footer{
 
 .copyright img{
     height: auto;
-    width: 9rem;
+    width: 160px;
 }
 
 .copyright span{
